@@ -1,0 +1,130 @@
+/** @format */
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body,
+html {
+	height: 100%;
+	width: 100%;
+	background-color: #b56a6a;
+}
+
+.container {
+	display: flex;
+	height: 100%;
+	width: 100%;
+	color: #fff;
+	overflow: hidden;
+}
+.left {
+	height: 100%;
+	width: 35%;
+	/* background-color: aqua; */
+	position: relative;
+}
+.center {
+	height: 100%;
+	width: 35%;
+	/* background-color: red; */
+	position: relative;
+}
+.right {
+	height: 100%;
+	width: 30%;
+	/* background-color: blueviolet; */
+	position: relative;
+}
+.img {
+	height: 30%;
+	width: 70%;
+	/* background-color: brown; */
+	background-image: url(pic.jpg);
+	background-size: cover;
+	position: absolute;
+	top: 10%;
+	left: 10%;
+}
+.text1 {
+	position: absolute;
+	top: 190px;
+}
+.text2 {
+	position: absolute;
+	top: 310px;
+}
+
+/* styling of center div */
+
+.statue {
+	height: 80%;
+	width: 80%;
+	border-radius: 500px;
+	/* background-color: #b56a6a; */
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+/* styling of left div */
+
+.left p {
+	position: absolute;
+	top: 20%;
+	left: 30%;
+	width: 60%;
+	height: 20%;
+	opacity: 0.8;
+}
+
+.arrow {
+	position: absolute;
+	top: 40%;
+	left: 70%;
+	opacity: 0.7;
+}
+
+.soc {
+	position: absolute;
+	top: 52%;
+	left: 10%;
+	/* font-family: "Bungee Spice", cursive; */
+	/* font-family: cursive; */
+	font-family: patrician cursive;
+	font-size: 159px;
+	font-weight: 400;
+}
+.logo {
+	position: absolute;
+	top: 0%;
+	left: 1%;
+	color: #ffffff61;
+	font-family: monospace;
+	font-size: 36px;
+}
+.footer {
+	position: absolute;
+	bottom: 4%;
+	left: 3%;
+}
+.footer a {
+	text-decoration: none;
+	color: #fff;
+	margin-left: 19px;
+}
+
+.menu {
+	position: absolute;
+	right: 1%;
+	top: 1%;
+}
+
+.subs {
+	position: absolute;
+	right: 1%;
+	bottom: 1%;
+}
